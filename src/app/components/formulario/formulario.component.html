@@ -1,0 +1,70 @@
+
+
+<!-- <div class="card">
+  <div class="card-body">
+    <form (submit)='agregarNombre(newNombre,newApellido)'>
+      <div class="form-group">
+        <input class="form-control" type="text" placeholder="Nombre" #newNombre>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="text" placeholder="Apellido" #newApellido>
+      </div>
+      <button class="btn btn-primary btn-block">Guardar</button>
+    </form>
+  </div>
+
+</div> -->
+
+
+
+<br>
+
+<img src="../../../assets/images/usuario.png" width="200px" height="200px" alt="Clic para agregar un usuario" srcset="" data-toggle="modal" data-target="#exampleModalCenter">
+<br><br>
+<div class="card">
+  <div class="card-body">
+    <h1>Añadir Usuario</h1>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Agregar Usuario</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="card">
+          <div class="card-body">
+            <form (submit)='agregarNombre(newNombre,newApellido,newCorreo)'>
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Nombre" #newNombre>
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Apellido" #newApellido>
+              </div>
+
+              <div class="form-group">
+                <input class="form-control" type="email" placeholder="Correo" #newCorreo>
+              </div>
+
+              <button class="btn btn-primary btn-block">Guardar</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

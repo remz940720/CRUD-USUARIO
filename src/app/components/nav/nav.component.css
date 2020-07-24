@@ -1,0 +1,10 @@
+nav{
+
+  height: 80px;
+  background: #555;
+
+}
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: white;
+}

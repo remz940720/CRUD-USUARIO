@@ -1,0 +1,33 @@
+header{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.container{
+  height: 150px;
+}
+
+#imagen{
+  height: 150px;
+
+}
+
+#imagen img{
+  height: 150px;
+
+}
+
+#texto{
+  height: 150px;
+  background: #045c84;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#texto h1{
+  line-height: 100px;
+  color: white;
+}
+
+

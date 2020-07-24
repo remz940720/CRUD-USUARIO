@@ -1,0 +1,22 @@
+<div class="card mb-2">
+  <div class="card-header d-flex justify-content-between align-item-center alert alert-success">
+    {{usuario.Nombre}}
+
+  <div>
+   <!--  <button (click)="usuario.Oculto = !usuario.Oculto" class="btn btn-primary">
+      Ver
+  </button> -->
+  <button (click)="borrarUsuario(usuario)" class="btn btn-danger">
+      Borrar
+  </button>
+
+  </div>
+  </div>
+  <div class="card-body alert alert-primary" >
+    {{usuario.Apellido}}
+  </div>
+  <div class="card-body alert alert-primary">
+    {{usuario.Correo}}
+  </div>
+
+</div>
