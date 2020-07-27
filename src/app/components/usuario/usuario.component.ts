@@ -24,5 +24,9 @@ export class UsuarioComponent implements OnInit {
 
   }
 
+  actualizarUsuario(usuario:Usuario){
+    this.datos.actualizarUsuario(this.usuario);
+  }
+
 
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Usuario } from 'src/app/models/datos';
 import { DatosService } from '../../services/datos.service';
 
 @Component({
@@ -31,5 +31,7 @@ export class FormularioComponent implements OnInit {
     newNombre.focus();
     return false;
   }
+
+
 
 }

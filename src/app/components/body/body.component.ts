@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Usuario } from 'src/app/models/datos';
+import { DatosService } from '../../services/datos.service';
 
 @Component({
   selector: 'app-body',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
-
-  constructor() { }
+  @Input() usuario: Usuario;
+  constructor(public datos:DatosService) { }
 
   ngOnInit(): void {
   }
+
+
 
 }

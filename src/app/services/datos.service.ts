@@ -49,7 +49,11 @@ export class DatosService {
    }
 
    actualizarUsuario(user:Usuario){
-
+    for(let i=0;i<this.usuario.length;i++){
+      if(user == this.usuario[i]){
+       console.log(this.usuario[i]);
+      }
+    }
    }
 
 
